@@ -1,0 +1,38 @@
+@media only screen and (min-width: 1500px) {
+    .grants .number {
+        font-size: 12em;
+    }
+    .invest .number, .people .number, .members .number {
+        font-size: 8em;
+    }
+    .invest-sub .number {
+        font-size: 5em;
+        margin-top: 8%;
+    }
+    .impact-container .header {
+        font-size: 3em;
+    }
+    .impact-container .subheader {
+        font-size: 1.8em;
+    }
+    
+    .story-image {
+        width: 14vw;
+        height: 14vw;
+        top: -10vw;
+        overflow: hidden;
+        border-radius: 100%;
+        position: absolute;
+        z-index: 10;
+    }
+    .story-image img {
+        position: relative;
+        width: 33vw;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .modal-right {
+        width: 55vw;
+    }
+}
