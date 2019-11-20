@@ -1363,16 +1363,28 @@ a > svg {
     height: 100%;
     margin-bottom: 50px;
 }
-
+/*
 .pasted-html ul {
     margin-top: 10px;
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+}*/
+
+.pasted-html ul {
+    margin-top: 10px;
+    list-style-type: none;
+    column-width: 300px;
 }
 
-.pasted-html ul span {
-    display: block;
+.pasted-html li  {
+    padding: 0 10px 5px 10px;
+    font-size: 1em;
+    width: 300px;
+}
+
+.pasted-html ul li span {
+    display: table;
     text-transform: uppercase;
     font-size: 0.7em;
     font-weight: 600;
@@ -1380,9 +1392,8 @@ a > svg {
     opacity: 0.3;
 }
 
-.pasted-html li  {
-    padding: 0 10px 5px 10px;
-    font-size: 1em;
+.noflex {
+    column-width: 100vw !important;
 }
 
 .pasted-html h3 {
