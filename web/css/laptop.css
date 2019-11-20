@@ -1,0 +1,152 @@
+@media only screen and (max-width: 1000px) {
+    
+    #menu {
+        padding-top: 20px;
+        padding-left: 13vw;
+        top: 55px;
+    }
+    
+    #logo-bar {
+        height: 90px;
+    }
+    
+    #logo-bar h1 {
+        display: block;
+        bottom: 20px;
+        left: 6px;
+    }
+    
+    #logo-bar .wrapper {
+    margin-left: 12vw;
+    }
+    
+    #menuToggle {
+        top: 35px
+    }
+    
+    .left-title h1 {
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+    
+    .left-title h2 {
+        font-size: 3em;
+    }
+
+    .right-block h1 {
+        font-size: 1.5em;
+        margin-bottom: 0;
+    }
+    .right-block h2 {
+        font-size: 1em;
+    }
+    
+    .right-block p {
+        font-size: 1em;
+    }
+    
+    #footer h1 {
+        font-size: 1em;
+        margin: 0;
+    }
+    #footer h2 {
+        font-size: 3em;
+    }
+    
+    .chart {
+        width: 240px;
+        height: 240px;
+    }
+    
+     .doughnutSummaryTitle {
+         font-size: 12px;
+    }
+    .doughnutSummaryNumber {
+        font-size: 23px;
+    }
+    
+    .doughnutSummaryNumber::before {
+        font-size: 23px;
+    }
+    
+    .modal-left {
+       padding: 30px 30px 30px 50px;
+    }
+    .modal-left h1, .modal-right h1 {
+        font-size: 2.5em;
+    }
+    .modal-left h2, .modal-right h2 {
+        font-size: 2.5em;
+        }
+    .modal-right {
+         padding: 30px 100px 30px 30px;
+    }
+    .modal-right h3 {
+        font-size: 1.2em;
+    }
+    .modal-right h4 {
+        font-size: 0.8em;
+    }
+    .modal-center {
+        padding: 50px;
+    }
+    
+    /* HERO */
+    
+    #letter {
+        width: 100%;
+        flex-flow: wrap;
+    }
+    .circle-0 {
+        width: 50vw;
+        height: 50vw;
+        top: 0;
+    }
+    .letter-wrapper {
+        position: relative;
+        padding: 25vw 10vw 10vw 10vw;
+        width: 100%;
+        order: 2;
+    }
+    .letter-image {
+        position: relative;
+        width: 100%;
+        order: 1;
+        height: 40vw;
+        top: 0vw;
+    }
+    
+    .hero-photos {
+        top: 0;
+        left: 30%;
+        width: 40vw;
+    }
+    
+    .sub-hero-photo1 {
+        width: 30vw;
+        height: 30vw;
+        left: 6%;
+    }
+    .sub-hero-photo1 img {
+        width: 50vw;
+    }
+    .sub-hero-photo2 {
+        left: 65%;
+        top: 70%;
+        width: 30vw;
+        height: 30vw;
+    }
+    .sub-hero-photo2 img {
+        width: 70vw;
+    }
+    
+    .img-caption h1 {
+        font-size: 1.5vh;
+    }
+    
+    .donate {
+        right: 0;
+        top: 22px;
+        margin-right: 5%;
+    }
+}

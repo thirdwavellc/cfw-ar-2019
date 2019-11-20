@@ -1,0 +1,54 @@
+.pulse-container {
+    position: absolute;
+    top: calc(50% - 4.2vw);
+    left: calc(50% - 14.6vw);
+    z-index: 2;
+    overflow: visible;
+}
+
+.pulse1, .pulse2 {
+    position: absolute;
+    background-color: #fff;
+    z-index: 2;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 100%;
+    transition: 0.2s ease;
+    color: var(--teal);
+    text-align: center;
+    line-height: 8vw;
+    transform: scale(0);
+}
+
+.pulse1 span, .pulse2 span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.pulse-anim1 {
+    animation-name: pulse_animation1;
+    animation-duration: 6000ms;
+    animation-iteration-count: infinite;
+}
+
+.pulse-anim2 {
+    animation-name: pulse_animation2;
+    animation-duration: 6000ms;
+    animation-iteration-count: infinite;
+}
+@keyframes pulse_animation1 {
+    0% { transform: scale(0); }
+    15% { transform: scale(1); }
+    35% { transform: scale(1); }
+    50% { transform: scale(0); }
+}
+
+@keyframes pulse_animation2 {
+    50% { transform: scale(0); }
+    65% { transform: scale(1); }
+    85% { transform: scale(1); }
+    100% { transform: scale(0); }
+}
