@@ -29,7 +29,7 @@ $(function(){
     { title: "Grantee Education and Support", value:  7, color: "var(--navy)" },
     { title: "Leadership Development", value:  11, color: "var(--purple)" },
     { title: "Public Policy and Advocacy", value:  10, color: "var(--lime)" },
-  ], 4335732, {doughnutTitle: "services"} );
+  ], 4335732, {doughnutTitle: "services"});
 });
 
 /*!
@@ -154,7 +154,7 @@ $(function(){
 
     //Animation start
       
-    $( "#modalEightButton" ).click(function() {
+    $( "#modalOpen-8" ).click(function() {
             animationLoop(drawPieSegments);
         });
       
@@ -188,7 +188,7 @@ $(function(){
         ];
         cmd = cmd.join(' ');
         return cmd;
-    };
+    }
     function pathMouseEnter(e) {
       var order = $(this).data().order;
       $tip.text(data[order].title + ": " + data[order].value)
